@@ -1,3 +1,5 @@
-theme: jekyll-theme-minimal
 title: Testing GitHub Pages
 description: So far, this is just a test site
+remote_theme: pages-themes/dinky@v0.2.0
+plugins:
+- jekyll-remote-theme
