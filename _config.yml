@@ -1,4 +1,6 @@
-title: Testing GitHub Pages
-author: Joe Koop
-description: So far, this is just a test site
+title: "GitHub Pages Test"
+author: "Joe Koop"
+description: "Testing testing testing testing testing testing"
 theme: "minima"
+
+github_username: "jkoop"
