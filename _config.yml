@@ -1,5 +1,4 @@
 title: Testing GitHub Pages
+author: Joe Koop
 description: So far, this is just a test site
-remote_theme: pages-themes/dinky@v0.2.0
-plugins:
-- jekyll-remote-theme
+theme: "minima"
