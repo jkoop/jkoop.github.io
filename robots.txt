@@ -1,1 +1,1 @@
-Sitemap: https://jkoop.github.io/sitemap.xml
+Sitemap: https://joekoop.com/sitemap.xml
