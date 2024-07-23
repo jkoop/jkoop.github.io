@@ -1,1 +1,1 @@
-Sitemap: https://joekoop.com/sitemap.xml
+Sitemap: https://joekoop.com/sitemap_index.xml
