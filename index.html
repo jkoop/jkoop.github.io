@@ -1,0 +1,107 @@
+---
+title: Index
+layout: default
+---
+
+<h2>Writings</h2>
+
+<p><a href="blog/">See my blog</a></p>
+
+<h2>Projects</h2>
+
+<style>
+    #projects {
+        display: grid;
+        grid-template-columns: 1fr auto;
+    }
+
+    @media screen and (max-width: 768px) {
+        #projects {
+            display: block;
+        }
+
+        #project > * {
+            display: block;
+            margin: 0;
+        }
+
+        .project-name {
+            margin-top: 1rem;
+        }
+
+        .project-description {
+            margin-bottom: 1rem;
+        }
+
+        #project > *:last-child {
+            margin: 0;
+        }
+    }
+</style>
+
+<div id="projects">
+    <a class="project-name" href="http://packages.joekoop.com">
+        Apt Package Repo
+    </a>
+    <div class="project-description">
+        Apt package repository for my projects and other projects I enjoy
+    </div>
+
+    <a class="project-name" href="audio-format-compare/"
+        >Audio Format Compare</a
+    >
+    <div class="project-description">
+        Compare some audio formats that all modern browsers support
+    </div>
+
+    <a class="project-name" href="cheezy/">Cheezy</a>
+    <div class="project-description">Puzzle game; clear the grid of cheese</div>
+
+    <a class="project-name" href="colour-clock/">Colour Clock</a>
+    <div class="project-description">A clock as a colour wheel</div>
+
+    <a class="project-name" href="decimal-time/">Decimal Time</a>
+    <div class="project-description">
+        Display time in analogue decimal format
+    </div>
+
+    <a class="project-name" href="fireworks/">Fireworks</a>
+    <div class="project-description">
+        Hanabi card keeper and basic logic handler
+    </div>
+
+    <a class="project-name" href="passive-audible-clock/">
+        Passive Audible Clock
+    </a>
+    <div class="project-description">
+        Webpage that beeps at predictable times
+    </div>
+
+    <a class="project-name" href="pong-with-windows/">
+        Pong with browser windows
+    </a>
+    <div class="project-description">
+        Play pong against a wall with web browser windows
+    </div>
+
+    <a class="project-name" href="rubiks-faces/">Rubik's Faces</a>
+    <div class="project-description">
+        What moves to do to get one face of a Rubik's cube to look like this?
+    </div>
+
+    <a class="project-name" href="subsquare/">Subsquare</a>
+    <div class="project-description">
+        Display
+        <a
+            href="https://en.wikipedia.org/wiki/Maidenhead_Locator_System#Description_of_the_system"
+            target="_blank"
+            >maidenhead locator</a
+        >
+        (any length) as a rectangle on a map
+    </div>
+
+    <a class="project-name" href="worded-time/">Worded Time</a>
+    <div class="project-description">
+        Display time in words by lighting up letters
+    </div>
+</div>
