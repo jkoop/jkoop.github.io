@@ -1,4 +1,9 @@
 title: "JoeKoop.com"
 author: "Joe Koop"
 description: "Personal website of Joe Koop"
-theme: "minima"
+#theme: "minima"
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
+minima:
+  skin: auto
