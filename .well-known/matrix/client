@@ -1,0 +1,8 @@
+{
+  "m.homeserver": {
+    "base_url": "https://matrix.joekoop.com/"
+  },
+  "org.matrix.msc3575.proxy": {
+    "url": "https://matrix.joekoop.com/"
+  }
+}
